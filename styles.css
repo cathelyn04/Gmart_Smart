@@ -1,0 +1,106 @@
+html, body {
+    height: 100%; /* Ensure the body takes the full height */
+    margin: 0; /* Remove default margin */
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Removes default margin */
+    background-color: #f4f4f4; /* Optional: set a background color */
+}
+
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px; /* Spacing */
+    text-align: center; /* Center text */
+}
+
+.logo {
+    width: 30px !important; /* Make the logo smaller */
+    height: auto !important; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align the logo vertically with the text */
+    margin-right: 5px; /* Space between the logo and the text */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* No padding */
+}
+
+nav ul li {
+    display: inline; /* Inline items */
+    margin-right: 20px; /* Space between links */
+}
+
+nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    background-color: white; /* Optional: set a background color for the form area */
+    padding: 20px; /* Add some padding */
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Darker text for better contrast */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #28a745; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, transform 0.3s; /* Add transition effects */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+p {
+    color: red;
+    text-align: center;
+    margin-top: 15px; /* Space between the button and message */
+}
+
+footer {
+    background-color: #f1f1f1; /* Optional: footer background color */
+    text-align: center; /* Center text in footer */
+    padding: 10px; /* Add some padding */
+}
